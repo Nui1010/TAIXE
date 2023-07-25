@@ -88,7 +88,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/button16"
+        android:id="@+id/btnBD"
         android:layout_width="110dp"
         android:layout_height="58dp"
         android:layout_marginStart="16dp"
@@ -114,7 +114,7 @@
         android:layout_height="94dp"
         android:layout_marginStart="16dp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button16"
+        app:layout_constraintTop_toBottomOf="@+id/btnBD"
         app:srcCompat="@drawable/img" />
     <TextView
         android:id="@+id/textView22"
