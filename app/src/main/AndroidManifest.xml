@@ -12,6 +12,21 @@
         android:theme="@style/Theme.TAIXE"
         tools:targetApi="31">
         <activity
+            android:name=".DonKhach"
+            android:exported="false" />
+        <activity
+            android:name=".KhachGoi"
+            android:exported="false" />
+        <activity
+            android:name=".SanSangDK"
+            android:exported="false" />
+        <activity
+            android:name=".StatusActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ThuNhap"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
